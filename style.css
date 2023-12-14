@@ -1,0 +1,181 @@
+body {
+    background-image: url(images/es-vedra-ibiza_1126_xl-kopie.jpg);
+    max-width: 75vw;
+    margin: 0% auto;
+}
+
+
+hr {
+    color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+
+
+h1 {
+    color:rgb(202, 153, 61);
+    font-family:fantasy;
+    font-size: 2.4em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 0.1em;
+}
+
+img {
+    height: 330px;
+    width: 220px;
+}
+
+
+h2 {
+    color: rgb(202, 153, 61);
+    font-size: 1.8em;
+    margin-left: 2.2em; 
+}
+
+
+
+
+a {
+    text-decoration: none;
+    position: static;
+    color: rgb(255, 255, 255);
+    font-weight:lighter;
+    font-size: 1.1em;
+}
+
+
+
+ul {
+    justify-content: flex-start;
+    margin-top: 2em;
+    margin-left: 4em;
+    font-size: 1em;
+    flex-wrap: wrap;
+    
+}
+
+ul li{
+    display: inline-flex;
+}
+    
+
+ul li a{  
+    padding: 0.1em 1em;
+    animation: fadeIn 3.5s;
+}
+
+
+ul li a:hover{
+    background-color:  rgb(202, 153, 61);
+    color: black;
+    transform: scale(1.1);
+    transition: 500ms linear;
+    border-radius: 1em;
+    padding-bottom: 0.1em;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0.1; }
+    100% { opacity: 2; }
+  }
+
+
+
+p {
+    color: rgb(255, 255, 255);
+    margin-left: 2em;
+    width: 60em;
+    font-size: 1.2em;
+    font-weight:400;
+    font-family: initial;
+}
+
+.pborder {
+    font-weight: 300;
+    width: 60em;
+    text-align: center; 
+}
+
+.horizontalecontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.horizontaleplaatjes {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-left: 2.6em;
+    margin-bottom: 2em;
+    
+}
+
+
+
+
+.plaatjesnatuur {
+   justify-content:space-evenly;
+   justify-content: flex-start;
+   display: flex;   
+}
+ 
+.veiligheid {
+    width: 50em;
+}
+
+
+
+.horizontalecontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.activiteiten {
+    color: rgb(255, 255, 255);
+    margin-left: 2em;
+    width: 30em;
+    font-size: 1.2em;
+    font-weight:400;
+    font-family: initial;
+    
+}
+  
+ .midden {
+   text-align: center;
+   margin-right: 7em;
+ }
+
+ .linkje {
+    text-decoration:underline;
+    color: rgb(202, 153, 61);
+    font-weight: bolder;
+ }
+
+ .linkje a {
+    color: rgb(202, 153, 61);
+ }
+
+ .linkje a:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+    background-color:rgb(202, 153, 61);
+    border-radius: 0.5em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+ }
+
+ .wittehuis {
+    height: 300px;
+    width: 700px;
+    justify-content: center;
+    margin-left: 16em;
+ }
+
+ .geel {
+    color: rgb(202, 153, 61);
+ }
